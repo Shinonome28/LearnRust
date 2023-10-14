@@ -34,6 +34,7 @@ fn guess_number() {
     }
 }
 
+#[allow(dead_code)]
 pub fn main1() {
     guess_number();
 }

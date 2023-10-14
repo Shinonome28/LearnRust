@@ -8,6 +8,7 @@ fn first_word(s: &str) -> &str {
     s
 }
 
+#[allow(dead_code)]
 pub fn main2() {
     let a = first_word("a b c");
     let b = first_word("awdfawefawef");
