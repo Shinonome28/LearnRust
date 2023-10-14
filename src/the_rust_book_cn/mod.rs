@@ -1,5 +1,6 @@
 mod first_word;
 mod guess_number;
+mod hashmap_test;
 mod if_let;
 mod rectangle;
 mod string_test;
@@ -7,6 +8,7 @@ mod vector_test;
 
 pub use first_word::main2;
 pub use guess_number::main1;
+pub use hashmap_test::main7;
 pub use if_let::main4;
 pub use rectangle::main3;
 pub use string_test::main6;

@@ -13,6 +13,7 @@ fn print_bytes_and_chars(s: &String) {
     print!("\n");
 }
 
+#[allow(dead_code)]
 pub fn main6() {
     let s = "Hello".to_string();
     println!("<sync 1> {}", s);
